@@ -1,0 +1,12 @@
+[package]
+name = "capnpc-dart"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+capnp = "0.14"
+convert_case = "0.4"
+
+[build-dependencies]
+capnpc = "0.14"
